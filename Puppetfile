@@ -99,7 +99,7 @@ github "chocolat",       "1.0.4"
 # github "airfoil",        "0.0.1" # error
 github "imageoptim",      "0.0.2"
 github "textmate",       "1.1.0"
-github "pivotalbooster", "1.0.4", :repo => "gblair/puppet-pivotalbooster"
+# github "pivotalbooster", "1.0.4", :repo => "gblair/puppet-pivotalbooster"
 
 github "hub",          "1.3.0"
 github "phantomjs",    "2.3.0"

@@ -36,5 +36,5 @@ class people::johnlauck::applications {
   # include airfoil  # error
   include imageoptim
   include textmate::textmate2::beta
-  include pivotalbooster
+  # include pivotalbooster
 }
