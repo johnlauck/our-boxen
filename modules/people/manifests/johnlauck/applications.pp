@@ -16,7 +16,6 @@ class people::johnlauck::applications {
   include skype
   include pgadmin3
   include github_for_mac
-  include authy
   include reggy
   include bartender
   include vlc
