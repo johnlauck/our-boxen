@@ -5,4 +5,9 @@ class people::johnlauck::dev {
   include heroku
   include protobuf
   include docker
+
+  package { "postgresql92":
+    ensure => present,
+  }
+  
 }
