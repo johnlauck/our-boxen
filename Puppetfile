@@ -95,7 +95,6 @@ github "colloquy",       "1.0.0"
 github "chocolat",       "1.0.4"
 github "imageoptim",      "0.0.2"
 github "textmate",       "1.1.0"
-github "istatmenus4",     "1.1.0"
 # github "cyberduck",     "1.0.1" # error
 # github "utorrent",      "1.1.1" # eula error https://github.com/nonsense/puppet-utorrent/issues/6
 # github "kindle",         "1.0.1" # error

@@ -32,7 +32,6 @@ class people::johnlauck::applications {
   include chocolat
   include imageoptim
   include textmate::textmate2::beta
-  include istatmenus4
   # include utorrent #eula error https://github.com/nonsense/puppet-utorrent/issues/6
   # include cyberduck  # error
   # include kindle  # error
