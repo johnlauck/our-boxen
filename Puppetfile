@@ -60,6 +60,8 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "osx",          "2.8.0"
+
 github "iterm2",       "1.2.2", :repo => "boxen/puppet-iterm2"
 github "chrome",       "1.2.0"
 github "dropbox",      "1.4.1"
@@ -73,6 +75,5 @@ github "omnifocus",    "1.1.0"
 github "textexpander", "1.1.0"
 github "evernote",     "2.0.7"
 
-github  "osx",          "2.8.0"
 github "zsh",          "1.0.0"
 github "zshgitprompt", "1.0.2"

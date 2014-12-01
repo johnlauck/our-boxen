@@ -1,5 +1,4 @@
-class people::johnlauck::shell {
-  include osx
+class people::johnlauck::shell {  
   include zsh
   include zshgitprompt
 }
