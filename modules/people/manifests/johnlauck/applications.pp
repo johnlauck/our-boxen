@@ -25,15 +25,15 @@ class people::johnlauck::applications {
   include rubymine
   #include utorrent #eula error https://github.com/nonsense/puppet-utorrent/issues/6
   include macvim
-  include cyberduck
+  # include cyberduck  # error
   include sublime_text_2
   include plex
   include rdio
   include fitbit
   include colloquy
-  include kindle
+  # include kindle  # error
   include chocolat
-  include airfoil
+  # include airfoil  # error
   include imageoptim
   include textmate::textmate2::beta
   include pivotalbooster
