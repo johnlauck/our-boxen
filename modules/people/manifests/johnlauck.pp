@@ -20,19 +20,19 @@ class people::johnlauck {
     magnification_size => 84
   }
 
-  # $home = "/Users/${::boxen_user}"
-  # $dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
+  # $dotfiles = "${boxen::config::srcdir}/dotfiles"
   #
-  # repository { $dotfiles_dir:
-  #   source => "${::github_user}/dotfiles"
+  # repository { $dotfiles:
+  #   source => "${::github_login}/dotfiles",
+  #   require => File[${boxen::config::srcdir}],
   # }
   #
   # exec { "install dotfiles":
-  #   cwd      => $dotfiles_dir,
-  #   command  => "./install.sh",
   #   provider => shell,
+  #   command  => "./script/install",
+  #   cwd      => $dotfiles,
   #   creates  => "${home}/.zshrc",
-  #   require  => Repository[$dotfiles_dir]
+  #   require  => Repository[$dotfiles],
   # }
 
   include people::johnlauck::applications
