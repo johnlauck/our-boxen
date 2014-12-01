@@ -103,7 +103,6 @@ github "textmate",       "1.1.0"
 # github "pivotalbooster", "1.0.4", :repo => "gblair/puppet-pivotalbooster"
 
 github "hub",          "1.3.0"
-github "phantomjs",    "2.3.0"
 github "imagemagick",  "1.3.0"
 github "heroku",       "2.1.1"
 github "protobuf",     "1.0.0"
