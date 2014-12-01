@@ -86,19 +86,20 @@ github "sourcetree",    "1.0.0"
 github "flux",          "1.0.1"
 github "charles",       "1.0.4"
 github "rubymine",      "1.1.0"
-#github "utorrent",      "1.1.1" # eula error https://github.com/nonsense/puppet-utorrent/issues/6
 github "macvim",        "1.0.0"
-# github "cyberduck",     "1.0.1" # error
 github "sublime_text_2", "1.1.2"
 github "plex",           "1.0.0"
 github "rdio",           "1.0.0"
 github "fitbit",         "1.0.0"
 github "colloquy",       "1.0.0"
-# github "kindle",         "1.0.1" # error
 github "chocolat",       "1.0.4"
-# github "airfoil",        "0.0.1" # error
 github "imageoptim",      "0.0.2"
 github "textmate",       "1.1.0"
+github "istatmenus4",     "1.1.0"
+# github "cyberduck",     "1.0.1" # error
+# github "utorrent",      "1.1.1" # eula error https://github.com/nonsense/puppet-utorrent/issues/6
+# github "kindle",         "1.0.1" # error
+# github "airfoil",        "0.0.1" # error
 # github "pivotalbooster", "1.0.4", :repo => "gblair/puppet-pivotalbooster"
 
 github "hub",          "1.3.0"

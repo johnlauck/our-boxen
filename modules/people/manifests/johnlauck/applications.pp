@@ -23,18 +23,19 @@ class people::johnlauck::applications {
   include flux::beta
   include charles
   include rubymine
-  #include utorrent #eula error https://github.com/nonsense/puppet-utorrent/issues/6
   include macvim
-  # include cyberduck  # error
   include sublime_text_2
   include plex
   include rdio
   include fitbit
   include colloquy
-  # include kindle  # error
   include chocolat
-  # include airfoil  # error
   include imageoptim
   include textmate::textmate2::beta
+  include istatmenus4
+  # include utorrent #eula error https://github.com/nonsense/puppet-utorrent/issues/6
+  # include cyberduck  # error
+  # include kindle  # error
+  # include airfoil  # error
   # include pivotalbooster
 }
