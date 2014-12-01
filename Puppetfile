@@ -73,5 +73,6 @@ github "omnifocus",    "1.1.0"
 github "textexpander", "1.1.0"
 github "evernote",     "2.0.7"
 
+githb  "osx",          "2.8.0"
 github "zsh",          "1.0.0"
 github "zshgitprompt", "1.0.2"
