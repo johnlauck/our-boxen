@@ -1,4 +1,5 @@
-class people::johnlauck::shell {  
+class people::johnlauck::shell {
   include zsh
   include zshgitprompt
+  include wget
 }

@@ -21,5 +21,6 @@ class people::johnlauck {
   }
 
   include people::johnlauck::applications
+  include people::johnlauck::dev
   include people::johnlauck::shell
 }
