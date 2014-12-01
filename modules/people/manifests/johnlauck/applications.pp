@@ -23,8 +23,18 @@ class people::johnlauck::applications {
   include flux::beta
   include charles
   include rubymine
-  include utorrent
-
-  # include docker # 0.7.0
-  # include jmeter # 0.1.5
+  #include utorrent #eula error https://github.com/nonsense/puppet-utorrent/issues/6
+  include macvim
+  include cyberduck
+  include sublime_text_2
+  include plex
+  include rdio
+  include fitbit
+  include colloquy
+  include kindle
+  include chocolat
+  include airfoil
+  include imageoptim
+  include textmate::textmate2::beta
+  include pivotalbooster
 }
