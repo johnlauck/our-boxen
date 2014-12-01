@@ -97,7 +97,7 @@ github "colloquy",       "1.0.0"
 github "kindle",         "1.0.1"
 github "chocolat",       "1.0.4"
 github "airfoil",        "0.0.1"
-github "imageoptm",      "0.0.2", :repo => "webflo/puppet-imageoptim"
+github "imageoptim",      "0.0.2"
 github "textmate",       "1.1.0"
 github "pivotalbooster", "1.0.4"
 
