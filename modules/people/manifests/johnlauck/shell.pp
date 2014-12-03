@@ -5,8 +5,12 @@ class people::johnlauck::shell {
   include screen
   include tmux
   include brewcask
-  
+
   package { "s3cmd":
+    ensure => present,
+  }
+
+  package { "htop":
     ensure => present,
   }
 
