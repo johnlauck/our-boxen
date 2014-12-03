@@ -294,6 +294,11 @@ GITHUBTARBALL
     zshgitprompt (1.0.2)
 
 GITHUBTARBALL
+  remote: phinze/puppet-brewcask
+  specs:
+    brewcask (0.0.4)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -313,6 +318,7 @@ DEPENDENCIES
   atom (= 1.1.0)
   bartender (= 1.0.0)
   boxen (= 3.7.0)
+  brewcask (= 0.0.4)
   caffeine (= 1.0.0)
   charles (= 1.0.4)
   chocolat (= 1.0.4)

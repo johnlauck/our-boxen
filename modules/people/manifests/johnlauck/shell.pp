@@ -4,7 +4,8 @@ class people::johnlauck::shell {
   include wget
   include screen
   include tmux
-
+  include brewcask
+  
   package { "s3cmd":
     ensure => present,
   }
