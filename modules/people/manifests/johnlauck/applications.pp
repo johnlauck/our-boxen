@@ -14,7 +14,6 @@ class people::johnlauck::applications {
   include skitch
   include spotify
   include skype
-  include pgadmin3
   include github_for_mac
   include reggy
   include bartender

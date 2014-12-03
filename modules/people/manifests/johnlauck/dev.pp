@@ -9,5 +9,5 @@ class people::johnlauck::dev {
   package { "postgresql92":
     ensure => present,
   }
-  
+    
 }
