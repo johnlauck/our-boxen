@@ -3,7 +3,7 @@ class people::johnlauck::applications {
   include dropbox
   include chrome
   include onepassword
-  include onepassword::chrome
+  #include onepassword::chrome
   include virtualbox
   include vagrant
   include caffeine
