@@ -1,7 +1,7 @@
 class people::johnlauck::applications {
   include iterm2::dev
   include dropbox
-  include chrome::beta
+  include chrome
   include onepassword
   include onepassword::chrome
   include virtualbox
