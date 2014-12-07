@@ -1,6 +1,6 @@
 class people::johnlauck::shell {
   include zsh
-  include zshgitprompt
+  include ohmyzsh
   include wget
   include screen
   include tmux

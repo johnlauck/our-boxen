@@ -1,10 +1,11 @@
 class people::johnlauck::applications {
   include iterm2::dev
   include dropbox
+  include chrome::beta
   include onepassword
+  include onepassword::chrome
   include virtualbox
   include vagrant
-  include chrome::beta
   include caffeine
   include alfred
   include atom
