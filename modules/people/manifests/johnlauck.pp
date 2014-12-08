@@ -1,6 +1,6 @@
 class people::johnlauck {
   notify { 'class people::johnlauck declared': }
-
+  
   include osx::finder::empty_trash_securely
   include osx::global::tap_to_click
   include osx::safari::enable_developer_mode
