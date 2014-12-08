@@ -17,8 +17,23 @@ class people::johnlauck {
 
   class { 'osx::dock::magnification':
     magnification => true,
-    magnification_size => 84
+    magnification_size => 100
   }
+
+  # Finder
+  include osx::finder::unhide_library
+    class osx::finder::show_all_files {
+      include osx::finder
+      boxen::osx_defaults { 'Show all files':
+      user   => $::boxen_user,
+      domain => 'com.apple.finder',
+      key    => 'AppleShowAllFiles',
+      value  => true,
+      notify => Exec['killall Finder'];
+    }
+  }
+  include osx::finder::show_all_files
+
 
   # $dotfiles = "${boxen::config::srcdir}/dotfiles"
   #
