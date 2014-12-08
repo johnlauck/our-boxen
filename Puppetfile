@@ -61,8 +61,6 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "osx",          "2.8.0", :repo => "boxen/puppet-osx"
-
-github "iterm2",       "1.2.2", :repo => "boxen/puppet-iterm2"
 github "chrome",       "1.2.0"
 github "dropbox",      "1.4.1"
 github "onepassword",  "1.1.5"
@@ -84,7 +82,7 @@ github "vlc",           "1.1.0"
 github "sourcetree",    "1.0.0"
 github "flux",          "1.0.1"
 github "charles",       "1.0.4"
-github "rubymine",      "1.1.0"
+github "rubymine",      "1.2.0", :repo => "johnlauck/puppet-rubymine"
 github "macvim",        "1.0.0"
 github "sublime_text_2", "1.1.2"
 github "plex",           "1.0.0"
@@ -94,17 +92,22 @@ github "colloquy",       "1.0.0"
 github "chocolat",       "1.0.4"
 github "imageoptim",      "0.0.2"
 github "textmate",       "1.1.0"
-# github "pathfinder",     "1.0.0", :repo => "blacktorn/puppet-pathfinder"
+github "pathfinder",     "1.1.0", :repo => "johnlauck/puppet-pathfinder"
 # github "cyberduck",     "1.0.1" # error
 # github "utorrent",      "1.1.1" # eula error https://github.com/nonsense/puppet-utorrent/issues/6
 # github "airfoil",        "0.0.1" # error
 # github "pivotalbooster", "1.0.4", :repo => "gblair/puppet-pivotalbooster"
+
+# needs update
+github "iterm2",       "1.2.2", :repo => "boxen/puppet-iterm2"
+
 
 github "hub",          "1.3.0"
 github "imagemagick",  "1.3.0"
 github "heroku",       "2.1.1"
 github "protobuf",     "1.0.0"
 github "docker",       "0.7.0"
+github "java",         "1.7.1"
 
 github "zsh",          "1.0.0"
 github "ohmyzsh",      "1.0.0", :repo => "johnlauck/puppet-ohmyzsh"
