@@ -93,7 +93,8 @@ github "chocolat",       "1.0.4"
 github "imageoptim",      "0.0.2"
 github "textmate",       "1.1.0"
 github "pathfinder",     "1.1.0", :repo => "johnlauck/puppet-pathfinder"
-# github "cyberduck",     "1.0.1" # error
+github "cyberduck",     "1.1.0", :repo => "johnlauck/puppet-cyberduck"
+
 # github "utorrent",      "1.1.1" # eula error https://github.com/nonsense/puppet-utorrent/issues/6
 # github "airfoil",        "0.0.1" # error
 # github "pivotalbooster", "1.0.4", :repo => "gblair/puppet-pivotalbooster"

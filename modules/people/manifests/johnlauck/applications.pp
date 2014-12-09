@@ -33,8 +33,8 @@ class people::johnlauck::applications {
   include imageoptim
   include textmate::textmate2::beta
   include pathfinder
+  include cyberduck
   # include utorrent #eula error https://github.com/nonsense/puppet-utorrent/issues/6
-  # include cyberduck  # error
   # include kindle  # error
   # include airfoil  # error
   # include pivotalbooster
