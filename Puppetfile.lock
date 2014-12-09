@@ -289,6 +289,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: johnlauck/puppet-cyberduck
+  specs:
+    cyberduck (1.1.4)
+
+GITHUBTARBALL
   remote: johnlauck/puppet-ohmyzsh
   specs:
     ohmyzsh (1.0.0)
@@ -334,6 +339,7 @@ DEPENDENCIES
   chocolat (= 1.0.4)
   chrome (= 1.2.0)
   colloquy (= 1.0.0)
+  cyberduck (= 1.1.4)
   dnsmasq (= 2.0.0)
   docker (= 0.7.0)
   dropbox (= 1.4.1)
