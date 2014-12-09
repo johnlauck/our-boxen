@@ -1,4 +1,7 @@
 class people::johnlauck::applications {
+  class { 'iterm2::dev':
+    version => '20141103'
+  }
   include iterm2::dev
   include dropbox
   include chrome
