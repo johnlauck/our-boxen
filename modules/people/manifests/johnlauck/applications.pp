@@ -37,6 +37,7 @@ class people::johnlauck::applications {
   include textmate::textmate2::beta
   include pathfinder
   include cyberduck
+  include kaleidoscope
   # include utorrent #eula error https://github.com/nonsense/puppet-utorrent/issues/6
   # include kindle  # error
   # include airfoil  # error

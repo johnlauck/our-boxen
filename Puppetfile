@@ -90,10 +90,11 @@ github "rdio",           "1.0.0"
 github "fitbit",         "1.0.0"
 github "colloquy",       "1.0.0"
 github "chocolat",       "1.0.4"
-github "imageoptim",      "0.0.2"
+github "imageoptim",     "0.0.2"
 github "textmate",       "1.1.0"
 github "pathfinder",     "1.1.0", :repo => "johnlauck/puppet-pathfinder"
-github "cyberduck",     "1.1.4",  :repo => "johnlauck/puppet-cyberduck"
+github "cyberduck",      "1.1.4", :repo => "johnlauck/puppet-cyberduck"
+github "kaleidoscope",   "1.0.5", :repo => "johnlauck/puppet-kaleidoscope"
 
 # github "utorrent",      "1.1.1" # eula error https://github.com/nonsense/puppet-utorrent/issues/6
 # github "airfoil",        "0.0.1" # error
@@ -109,6 +110,7 @@ github "heroku",       "2.1.1"
 github "protobuf",     "1.0.0"
 github "docker",       "0.7.0"
 github "java",         "1.7.1"
+github "inconsolata",  "0.0.1", :repo => "foca/puppet-inconsolata"
 
 github "zsh",          "1.0.0"
 github "ohmyzsh",      "1.0.0", :repo => "johnlauck/puppet-ohmyzsh"

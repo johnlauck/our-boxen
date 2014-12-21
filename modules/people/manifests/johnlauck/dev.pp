@@ -6,14 +6,17 @@ class people::johnlauck::dev {
   include protobuf
   include docker
   include java
+  include inconsolata
+
+  # how do I pip install boto ?
 
   package { "postgresql92":
     ensure => present,
   }
 
-  # package { "ansible":
-  #   ensure => present,
-  # }
+  package { "ansible":
+    ensure => present,
+  }
 
   # http://support.apple.com/kb/DL1572
   package { 'JavaOsx':
