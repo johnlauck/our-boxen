@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.3)
+    nginx (1.4.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -299,6 +299,11 @@ GITHUBTARBALL
     cyberduck (1.1.4)
 
 GITHUBTARBALL
+  remote: johnlauck/puppet-istatmenus4
+  specs:
+    istatmenus (1.2.0)
+
+GITHUBTARBALL
   remote: johnlauck/puppet-kaleidoscope
   specs:
     kaleidoscope (1.0.5)
@@ -369,12 +374,13 @@ DEPENDENCIES
   imageoptim (= 0.0.2)
   inconsolata (= 0.0.1)
   inifile (= 1.1.1)
+  istatmenus (= 1.2.0)
   iterm2 (= 1.2.2)
   java (= 1.7.1)
   kaleidoscope (= 1.0.5)
   macvim (= 1.0.0)
   module_data (= 0.0.3)
-  nginx (= 1.4.3)
+  nginx (= 1.4.5)
   nodejs (= 3.8.1)
   ohmyzsh (= 1.0.0)
   omnifocus (= 1.1.0)

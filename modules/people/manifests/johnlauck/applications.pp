@@ -38,6 +38,7 @@ class people::johnlauck::applications {
   include pathfinder
   include cyberduck
   include kaleidoscope
+  include istatmenus
   # include utorrent #eula error https://github.com/nonsense/puppet-utorrent/issues/6
   # include kindle  # error
   # include airfoil  # error

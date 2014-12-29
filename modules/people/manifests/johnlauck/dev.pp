@@ -21,7 +21,9 @@ class people::johnlauck::dev {
   # http://support.apple.com/kb/DL1572
   package { 'JavaOsx':
     source  => 'http://support.apple.com/downloads/DL1572/en_US/JavaForOSX2014-001.dmg',
-    provider => pkgdmg;
+    provider => pkgdmg,
+    ensure => present,
+    #ensure   => installed,
   }
 
   ruby_gem { 'bundler for all rubies':

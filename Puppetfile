@@ -46,7 +46,7 @@ github "go",          "1.1.0"
 github "homebrew",    "1.9.8"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "nginx",       "1.4.3"
+github "nginx",       "1.4.5"
 github "nodejs",      "3.8.1"
 github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
@@ -95,6 +95,7 @@ github "textmate",       "1.1.0"
 github "pathfinder",     "1.1.0", :repo => "johnlauck/puppet-pathfinder"
 github "cyberduck",      "1.1.4", :repo => "johnlauck/puppet-cyberduck"
 github "kaleidoscope",   "1.0.5", :repo => "johnlauck/puppet-kaleidoscope"
+github "istatmenus",     "1.2.0", :repo => "johnlauck/puppet-istatmenus4"
 
 # github "utorrent",      "1.1.1" # eula error https://github.com/nonsense/puppet-utorrent/issues/6
 # github "airfoil",        "0.0.1" # error
