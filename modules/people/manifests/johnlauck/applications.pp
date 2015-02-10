@@ -8,6 +8,13 @@ class people::johnlauck::applications {
   include onepassword
   #include onepassword::chrome
   include virtualbox
+
+  class { 'vagrant':
+    version => '1.7.2',
+  }
+  vagrant::plugin { 'vagrant-vmware-fusion':
+    license => '/Users/johnl/vmware_fusion.lic',
+  }
   include vagrant
   include caffeine
   include alfred
